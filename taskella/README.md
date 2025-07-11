@@ -1,12 +1,39 @@
-# React + Vite
+# 🌸 Taskella – Blossom Productivity App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Taskella** is a pastel-themed, floral productivity app that combines visual calmness with powerful task management features. It reimagines your to-dos as blooming flowers and helps you stay organized in the most aesthetic way possible.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+-  Drag-and-drop Kanban board with 3 stages: **Seeds**, **Sprouts**, **Blooms**
+-  Task creation with:
+  - Subtasks
+  - Tags (#work, #selfcare, #priority)
+  - Due Dates & Priority levels
+-  Dark/Light mode toggle
+-  Blossom Garden Sidebar – Flower count based on tasks completed
+-  Vine-style progress bar (animated)
+-  Delete tasks with Undo option
+-  Tag-based Filtering
+-  Milestone messages as flowers bloom (e.g. “10 flowers bloomed!”)
+-  Profile customization: Avatar, Theme, Preferences
+-  Dashboard with Calendar, Streaks, Trends
+-  LocalStorage sync with backup/export support
+-  Full responsive design with soft animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+       Tech            | Usage 
+
+ **React (Vite)**      | Frontend Framework 
+ **Tailwind CSS**      | UI Styling 
+ **Framer Motion**     | Animations (petals, transitions) 
+ **@hello-pangea/dnd** | Drag-and-drop Kanban 
+ **localStorage API**  | Data persistence 
+ **Chart.js**          | Dashboard analytics 
+ **React Router**      | Routing between pages 
+
+
+
